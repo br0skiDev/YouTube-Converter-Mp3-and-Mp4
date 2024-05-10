@@ -3,12 +3,15 @@ from dotenv import load_dotenv
 import os
 from moviepy.editor import VideoFileClip
 
+# Load the .env
 load_dotenv()
 
-url = "https://youtube-media-downloader.p.rapidapi.com/v2/video/details"
-
+# Get the video ID
 print("\nPlease enter the YouTube video ID.\n\nHeres how to get the ID:\nYouTube link: .../watch?v=m81tcJpM7ng\nYouTube video ID: m81tcJpM7ng\n")
 getVideoId = input("Enter ID: ")
+
+# API request
+url = "https://youtube-media-downloader.p.rapidapi.com/v2/video/details"
 querystring = {"videoId": getVideoId}
 
 headers = {
@@ -16,9 +19,11 @@ headers = {
     "X-RapidAPI-Host": "youtube-media-downloader.p.rapidapi.com"
 }
 
+# API response
 response = requests.get(url, headers=headers, params=querystring)
 data = response.json()
 
+# Handle download and save as MP4 and convert to MP3
 if response.status_code == 200:
     output_dir = "output"
     os.makedirs(output_dir, exist_ok=True)
@@ -31,6 +36,7 @@ if response.status_code == 200:
         video_filename = os.path.join(output_dir, f"{video_title}.mp4")
         with open(video_filename, "wb") as file:
             file.write(video_response.content)
+
         print("\nVideo downloaded and saved successfully.")
 
         # Convert to MP3
