@@ -1,8 +1,8 @@
 # YouTube-Converter (MP3 and MP4)
 This is a simple Python script to convert YouTube videos to MP3 and MP4 via API.
 
-## Installation
 ---
+## Installation
 
 #### Clone the repository.
 
