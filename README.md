@@ -27,7 +27,7 @@ git clone https://github.com/br0skiDev/YouTube-Converter-Mp3-and-Mp4.git
 cd YouTube-Converter-Mp3-and-Mp4
 ```
 
-#### Create a .env file in the root directory:
+#### Type your API key into the .env file
 
 ```dotenv
 # Your RapidAPI-Key:
