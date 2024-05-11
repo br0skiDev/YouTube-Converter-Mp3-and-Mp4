@@ -30,12 +30,6 @@ cd YouTube-Converter-Mp3-and-Mp4
 #### Create a .env file in the project directory:
 
 ```dotenv
-# Go to the RapidAPI YouTube Media Downloader API and subscribe to the service.
-# Info: Free Plan = 15 requests per minute and 150 requests per month
-
-# Get it here:
-# https://rapidapi.com/DataFanatic/api/youtube-media-downloader
-
 # Your RapidAPI-Key:
 X-RapidAPI-Key=
 ```
