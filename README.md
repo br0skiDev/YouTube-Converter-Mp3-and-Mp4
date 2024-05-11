@@ -9,6 +9,10 @@ First subscribe to a free plan for the API we're using and get your API key.
 
 ![Alt-Text](github-files/Screenshot2.png)
 
+Choose a free plan:
+
+![Alt-Text](github-files/Screenshot3.png)
+
 ---
 ## Installation
 
@@ -48,7 +52,9 @@ python main.py
 ```
 
 
-Enter the YouTube video ID (.../watch?v=<span style="color:red;">m81tcJpM7ng</span>)
-The MP3 and MP4 files will be saved in the project directory in /output
+Enter the YouTube video ID ( .../watch?v=m81tcJpM7ng -> "m81tcJpM7ng" ) and hit enter.
 
 ![Alt-Text](github-files/Screenshot.png)
+
+The MP3 and MP4 files will be saved in the project directory in /output
+
