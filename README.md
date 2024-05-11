@@ -3,16 +3,11 @@ This is a simple Python script to convert YouTube videos to MP3 and MP4 via Rapi
 
 ---
 
-## Usage
+## How to use
 
-First get your API key, subscribe to a free plan for the API we're using.
+First subscribe to a free plan for the API we're using and get your API key.
 
 ![Alt-Text](github-files/Screenshot2.png)
-
-Enter the YouTube video ID (.../watch?v=<span style="color:red;">m81tcJpM7ng</span>)
-The MP3 and MP4 files will be saved in the project directory in /output
-
-![Alt-Text](github-files/Screenshot.png)
 
 ---
 ## Installation
@@ -53,3 +48,7 @@ python main.py
 ```
 
 
+Enter the YouTube video ID (.../watch?v=<span style="color:red;">m81tcJpM7ng</span>)
+The MP3 and MP4 files will be saved in the project directory in /output
+
+![Alt-Text](github-files/Screenshot.png)
