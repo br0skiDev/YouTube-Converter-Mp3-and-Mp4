@@ -2,6 +2,19 @@
 This is a simple Python script to convert YouTube videos to MP3 and MP4 via RapidAPI.
 
 ---
+
+## Usage
+
+First get your API key, subscribe to a free plan for the API we're using.
+
+![Alt-Text](github-files/Screenshot2.png)
+
+Enter the YouTube video ID (.../watch?v=<span style="color:red;">m81tcJpM7ng</span>)
+The MP3 and MP4 files will be saved in the project directory in /output
+
+![Alt-Text](github-files/Screenshot.png)
+
+---
 ## Installation
 
 #### Clone the repository.
@@ -39,13 +52,4 @@ pip install -r requirements.txt
 python main.py  
 ```
 
----
-First get your API key, subscribe a free plan for the API we're using.
-
-![Alt-Text](github-files/Screenshot2.png)
-
-Enter the YouTube video ID (.../watch?v=<span style="color:red;">m81tcJpM7ng</span>)
-The MP3 and MP4 files will be saved in the project directory in /output
-
-![Alt-Text](github-files/Screenshot.png)
 
